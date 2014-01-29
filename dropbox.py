@@ -1,5 +1,13 @@
 # encoding: utf-8
 
+"""
+Dropbox からファイルのダウンロード、アップロードを行うスクリプト
+"""
+
+__author__  = 'mystblue'
+__version__ = '0.1'
+__date__    = '2014/01/29'
+
 import urllib, urllib2
 import cookielib
 import re
